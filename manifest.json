@@ -2,10 +2,14 @@
   "name": "TabOpen",
   "version": "1.0",
   "description": "Expand links",
-  "permissions": ["activeTab", "webNavigation", "declarativeContent", "storage"],
-
-  "page_action": {
-    "default_title": "Open links in Google Keep",
+  "permissions": [
+    "activeTab",
+    "webNavigation",
+    "declarativeContent",
+    "storage"
+  ],
+  "action": {
+    "default_title": "Open all links submitted",
     "default_popup": "popup.html",
     "default_icon": {
       "16": "images/logo_tabopen_active_16.png",
@@ -20,6 +24,8 @@
     "48": "images/logo_tabopen_active_48.png",
     "128": "images/logo_tabopen_active_128.png"
   },
-  "content_security_policy": "script-src 'self' https://example.com; object-src 'self'",
-  "manifest_version": 2
+  "content_security_policy": {
+    "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self';"
+  },
+  "manifest_version": 3
 }
