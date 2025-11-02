@@ -6,17 +6,17 @@
     "default_title": "Open all links submitted",
     "default_popup": "popup.html",
     "default_icon": {
-      "16": "images/logo_tabopen_active_16.png",
-      "32": "images/logo_tabopen_active_32.png",
-      "48": "images/logo_tabopen_active_48.png",
-      "128": "images/logo_tabopen_active_128.png"
+      "16": "images/icon-16.png",
+      "32": "images/icon-32.png",
+      "48": "images/icon-48.png",
+      "128": "images/icon-128.png"
     }
   },
   "icons": {
-    "16": "images/logo_tabopen_active_16.png",
-    "32": "images/logo_tabopen_active_32.png",
-    "48": "images/logo_tabopen_active_48.png",
-    "128": "images/logo_tabopen_active_128.png"
+    "16": "images/icon-16.png",
+    "32": "images/icon-32.png",
+    "48": "images/icon-48.png",
+    "128": "images/icon-128.png"
   },
   "manifest_version": 3
 }
